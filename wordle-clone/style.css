@@ -1,0 +1,52 @@
+/* Basic styling for the Wordle clone */
+#wordle-clone {
+    font-family: Arial, sans-serif;
+    display:flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback {
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.feedback div{
+    margin:2.5%;
+}
+
+.correct {
+    color: green;
+}
+
+.present {
+    color: orange;
+}
+
+.wrong {
+    color: red;
+}
+
+.correct, .wrong, .present{
+    /* border: 2px solid black; */
+    border-radius:10%;
+    padding: 5px;
+    background-color: black;
+    font-weight: 700;
+}
+
+#guess {
+    background-color: #BDE0FE;
+    border-radius:5%;
+}
+
+#guess-form button{
+    background-color: #A2D2FF;
+    border-radius: 5%;
+}
+
+

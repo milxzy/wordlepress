@@ -1,0 +1,58 @@
+/*
+Theme Name: milx-custom-theme
+Theme URI: http://example.com/my-custom-theme
+Author: Miles Collins
+Author URI: http://example.com
+Description: milx custom theme for WordPress
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CDB4DB;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display:flex !important;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.side{
+    border:2px solid red;
+    width:48% !important;
+}
+
+#content{
+    display:flex !important;
+    justify-content:center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    
+}
+
